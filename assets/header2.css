@@ -1,0 +1,217 @@
+header {
+    position: relative;
+    background-size: 100vw ;
+    background-image: url(../images/Фон.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 400px;
+    border-radius: 0 0 400% 400% / 0 0 20% 20%;
+
+}
+
+header>img {
+    position: absolute;
+    width: 100%;
+    border-radius: 0 0 100% 100% / 0 0 20% 20%;
+    top: 100px;
+}
+
+header>* {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.top p {
+    margin: 0;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.contacts>p {
+    font-weight: 700;
+}
+
+.days {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.days>.block {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color:
+        #20FF87;
+}
+
+.top>.messangers>p {
+    text-align: right;
+    width: 250px;
+}
+
+.messangers {
+    display: flex;
+    gap: 20px;
+}
+
+.top>button {
+    width: 200px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid #43AAFF;
+    background-color: white;
+}
+
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 20%;
+    margin-top: 100px;
+
+
+}
+
+.bottom b {
+    font-size: 30px;    
+    font-weight: 800;
+}
+
+.bottom p {
+    font-size: 30px;
+    width: 600px;
+    line-height: 45px;
+    color: #4B5258;
+}
+
+.bottom span {
+    font-size: 20px;
+}
+
+.bottom span:nth-of-type(1)  {
+    color: #43AAFF;
+    letter-spacing: -2px;
+    padding: 0 5px;
+}
+
+.bottom > .title * {
+    margin: 0;
+}
+
+.bottom p:nth-of-type(2) {
+    font-size: 18px;
+    line-height: 28.8px;
+    width: 453px;
+}
+
+.container-buttons {
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.price {
+    width: 297px;
+    height: 80px;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1.95px;
+    border: none;
+    background: #43AAFF;    
+    box-shadow: 0px 4px 10px 0px rgba(255, 255, 255, 0.30) inset;
+}
+
+.type {    width: 297px;
+    height: 80px;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    letter-spacing: 1.95px;
+    font-size: 13px;
+    background: #FFC24D;
+    box-shadow: 0px 4px 10px 0px rgba(255, 255, 255, 0.30) inset;
+}
+.burger{
+    display: none;
+}
+@media (max-width: 966px) {
+
+    header {
+        background-image: none;
+    }
+
+    .contacts,
+    .messangers {
+        display: none !important;
+    }
+
+    .network img {
+        display: none !important;
+    }
+
+    .img1 {
+        width: 400px;
+    }
+
+    .btn {
+        display: none !important;
+    }
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    .burger div {
+        width: 30px;
+        height: 5px;
+        background: rgb(82, 169, 255);
+        border-radius: 4px;
+    }
+
+    .top {
+        justify-content: space-between;
+        padding: 0 3%;
+    }
+
+    .bottom {
+        padding: 0;
+        align-items: center;
+
+    }
+
+    .container-buttons {
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (max-width: 620px) {
+    .bottom p:nth-of-type(2) {
+        text-align: center;
+        width: 100%;
+    }
+
+    .bottom p {
+        text-align: center;
+        width: 100%;
+    }
+}

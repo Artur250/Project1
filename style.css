@@ -1,0 +1,684 @@
+@import url(./assets/header2.css);
+@import url(./assets/main.css);
+@import url(./assets/footer.css);
+
+
+
+@import url('https://fonts.cdnfonts.com/css/mont');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 546px) {
+    
+   
+    .onesc3up {
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+    }
+    .a2sc4 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+     .Section9{
+         height: 3400px;
+     }
+    .applic>img:nth-of-type(1){
+        display: none;
+    }
+    .applic>img:nth-of-type(2){
+        display: none;
+    }
+    .applic>img:nth-of-type(3){
+        display: none;
+    }
+    .Sc9box7{
+        width: 675px;
+    }
+    .Sc9box6{
+        
+       position: absolute;
+       top: 2827px;
+    }
+    .text6{
+        color: #FFF;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        text-decoration-line: underline;
+        font-size: 11px;
+    }
+    .applic{
+        position: absolute;
+        right: 690px;
+    }
+    
+    .block5{
+      
+       flex-wrap: wrap;
+        width: 100%;
+        position: absolute;
+        top: 2068px;
+      
+    }
+    .Sc9box4{
+        position: absolute;
+        top: 1757px;
+    }
+    .block3{
+        flex-wrap: wrap;
+        position: absolute;
+        top: 1331px;
+    }
+    .block2{
+       flex-wrap: wrap;
+    }
+    .Sc9box>p:nth-of-type(1){
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+    .Sc9box>p:nth-of-type(2){
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 17px;
+        text-align: center;
+    }
+    .text4{
+        font-size: 25px;
+    }
+    .sc1box{
+        flex-wrap: wrap;
+        margin-top: -6rem;
+        
+    }
+    .menu{
+        width: 654px;
+        height: 70px;
+        font-size: 15px;
+    }
+    .menu>p:hover{
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        width: 154px;
+        height: 70px;
+        background:#43AAFF;
+    }
+    .sc2box2>p:nth-of-type(1){
+        font-size: 25px;
+    }
+    .sc2box2>p:nth-of-type(2){
+        font-size: 17px;
+    }
+    .sc2box3>img{
+        display: none;
+    }
+    .sc2box3{
+        display: flex;
+        width: auto;
+        align-items: center;
+    }
+    .sc2box3>p:nth-of-type(1){
+        font-size: 20px;
+        position: absolute;
+        left: 30px;
+    }
+    .text2{
+        font-size: 16px;
+    }
+    .sc2tel{
+        position: absolute;
+        left: 129px;
+    }
+    .sc2box3>input:nth-of-type(1){
+        position: absolute;
+        left: 134px;
+    }
+    .sc2box3>button{
+        position: absolute;
+        left: 137px;
+    }
+    .sc2box3>input:nth-of-type(2){
+        position: absolute;
+        top: 470px;
+        left: 169px;
+    }
+    .sc2box3>p:nth-of-type(2){
+        position: absolute;
+        left: 194px;    
+    }
+
+
+
+
+    .threesc4 {
+        width: 700px;
+        height: 220px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background: linear-gradient(to right, rgb(240, 246, 255) 30%, rgba(67, 170, 255, 1) 100%);
+        border-radius: 30px;
+        box-shadow: 0px 0px 18px 5px gainsboro;
+    }
+    .qwe {
+        width: 270px;
+        height: 170px;
+    }
+    .sc5boxmg {
+        width: 700px;
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(67, 170, 255, 1);
+        background-image: url(../images/Mask\ Group.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 30px;
+        position: relative;
+    }
+    .wer1 {
+        display: none;
+    }
+    .wer1mini {
+        display: none;
+    }
+    .pdfsc5icon {
+        display: none;
+    }
+    .sc6boxa {
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .sc6boxaone {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .m1sc6 {
+        color: rgba(75, 82, 88, 1);
+        font-size: 26px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        margin: 20px 0px;
+    }
+    .m2sc6 {
+        color: rgba(149, 154, 157, 1);
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        margin: 0;
+    }
+    .sc6boxatwo {
+        width: 700px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sc6bimg1 {
+        width: 180px;
+        height: 250px;
+        border-radius: 30px;
+        box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+    }
+    .sc6bmini {
+        width: 40px;
+        height: 40px;
+        background: rgba(67, 170, 255, 1);
+        border-radius: 50%;
+        box-shadow: 0px 4px 10px 0px rgba(255, 255, 255, 0.3) inset;
+    }
+    .sc7boxmg {
+        width: 700px;
+        height: 333px;
+    }
+    .kppvvod {
+        margin-top: 20px;
+    }
+    .sc8boxvip {
+        width: 700px;
+    }
+    .sc8boxpors {
+        font-size: 24px;
+    }
+    .sc8boxques {
+        width: 640px;
+        height: 50px;
+        font-size: 14px;
+    }
+    .sc8guboy {
+        width: 28px;
+        height: 28px;
+    }
+    .footerbox {
+        width: 700px;
+    }  
+    .footnav {
+        font-size: 9px;
+    }  
+    .footnav1{
+        display: flex;
+        gap: 10px;
+    }   
+    .footnav1 img{
+        width: 34px;
+        height: 34px;
+    }   
+    .cleanfoot1 {
+        font-size: 10px;
+    }   
+    .softfoot2 {
+        font-size: 7px;
+    }   
+    .footnavimg {
+        width: 30px;
+    }
+}
+@media screen and (max-width: 810px){
+    
+    /* .applic{
+        width: 336px;
+        height: 356px;
+        position: absolute;
+        top: 2685px;
+        margin-right: 179px;
+    }
+    .applic>p:nth-of-type(1){
+        position: absolute;
+        top: 32px;
+        left: 23px;
+        width: 304px;
+        font-size: 17px;
+    }
+    .Sc9tel{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 18px;
+        height: 200px;
+        gap: 20px;
+    }
+    .applic>p:nth-of-type(2){
+        width: 252px;
+        position: absolute;
+        top: 299px;
+        left: 49px;
+    }
+    #int2{
+        position: absolute;
+        top: 308px;
+        left: 34px;
+    } */
+}
+@media screen and (max-width: 701px) {
+   
+    .Section9{
+        height: 4400px;
+    }
+    .block3{
+        position: absolute;
+        top: 1338px;
+    }
+    .Sc9box>p:nth-of-type(1){
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+   .menu{
+    display: none !important;
+    height: 700px;
+   }
+
+   .burger2 { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    gap: 3px; 
+    } 
+
+    .burger2 div { 
+    width: 68px; 
+    height: 10px; 
+    background: rgb(82, 169, 255); 
+    border-radius: 4px; 
+    } 
+
+    .sc2box2>p:nth-of-type(1){
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sc2box2>p:nth-of-type(2){
+        font-size: 14px;
+    }
+
+    .sc2box3>p:nth-of-type(1){
+        font-size: 20px;
+        width: 100%;
+        position: absolute;
+        left: 1px;
+    }
+    .text2{
+        font-size: 16px;
+    }
+    .sc2tel{
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        position: absolute;
+        left: 75px;
+    }
+    .sc2box3>input:nth-of-type(1){
+        width: 200px;
+        position: absolute;
+        top: 400px;
+        left: 65px;
+    }
+    .sc2box3>button{
+        width: 200px;
+        position: absolute;
+        top: 480px;
+        left: 68px;
+    }
+    .sc2box3>input:nth-of-type(2){
+        position: absolute;
+        top: 570px;
+        left: 60px;
+    }
+    .sc2box3>p:nth-of-type(2){
+        position: absolute;
+        left: 85px;  
+        top: 551px;  
+    }
+
+    .threesc4 {
+        width: 340px;
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background: linear-gradient(to bottom, rgb(240, 246, 255) 30%, rgba(67, 170, 255, 1) 100%);
+        border-radius: 30px;
+        box-shadow: 0px 0px 18px 5px gainsboro;
+        gap: 20px;
+    }
+    .t4t111 {
+        display: none;
+    }
+    .t4t222 {
+        display: none;
+    }
+    .qwe {
+        width: 270px;
+        height: 170px;
+    }
+    .sc5boxmg {
+        width: 340px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: linear-gradient(to bottom, rgba(67, 170, 255, 1) 0%,
+                rgb(0, 118, 215) 60%,
+                rgba(67, 170, 255, 1) 100%);
+        border-radius: 30px;
+        position: relative;
+    }
+    .priceopros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .wer2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mkmbig p {
+        font-size: 10px;
+    }
+    .mkmbig p span {
+        font-size: 10px;
+    }
+    .mkmbig input {
+        width: 12px;
+    }
+    .sc6boxa {
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .sc6boxaone {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .m1sc6 {
+        color: rgba(75, 82, 88, 1);
+        font-size: 26px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        margin: 20px 0px;
+    }
+    .m2sc6 {
+        text-align: center;
+        color: rgba(149, 154, 157, 1);
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .sc6boxatwo {
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .sc6bimg1 {
+        width: 340px;
+        height: 410px;
+        border-radius: 30px;
+        box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+    }
+    .sc6bmini {
+        display: none;
+    }
+    .sc7boxmg {
+        width: 340px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: linear-gradient(to bottom, rgba(67, 170, 255, 1) 0%,
+                rgb(0, 118, 215) 60%,
+                rgba(67, 170, 255, 1) 100%);
+        border-radius: 30px;
+        position: relative;
+    }
+    .section8 {
+        padding-bottom: 30px;
+    }
+    .sc8boxvip {
+        width: 340px;
+    }
+    .sc8boxpors {
+        font-size: 18px;
+    }
+    .sc8boxques {
+        width: 340px;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 14px;
+        padding: 0;
+    }
+    .sc8guboy {
+        display: none;
+    }
+    .footerbox {
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+    .footnav {
+        font-size: 13px;
+    }
+    .footnav1{
+        display: flex;
+        gap: 10px;
+    }
+    .footnav1 img{
+        width: 40px;
+        height: 40px;
+    }
+    .cleanfoot1 {
+        font-size: 13px;
+    }
+    .softfoot2 {
+        font-size: 9px;
+    }
+    .footnavimg {
+        width: 40px;
+    }
+}
+@media screen  and (max-width: 675px){
+    /* .applic{
+        width: 336px;
+        height: 356px;
+        position: absolute;
+        top: 3685px;
+        right: 179px;
+    } */
+    .Sc9box7{
+        width: 325px;
+        height: 400px;
+    }
+    .Sc9tel{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 300px;
+    }
+    .Sc9box6{
+       position: absolute;
+       top: 3795px;
+    }
+    .applic>p:nth-of-type(1){
+        font-size: 17px;
+        width: 302px;
+    }
+    #int2{
+        position: absolute;
+        top: 319px;
+        left: 67px;
+    }
+    .applic>p:nth-of-type(2){
+        width: 252px;
+        position: absolute;
+        top: 305px;
+        left: 88px;
+    }
+    .text6{
+        color: #FFF;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        text-decoration-line: underline;
+        font-size: 11px;
+    }
+    .applic{
+        position: absolute;
+        right: 350px;
+    }
+    .block5{
+        flex-wrap: wrap;
+         width: 100%;
+         position: absolute;
+         top: 2658px;
+       
+     }
+    .Sc9box4{
+        position: absolute;
+        top: 2309px;
+    }
+    .Sc9box4>button{
+        width: 100%;
+        font-size: 14px;
+        
+    }
+    .Sc9box4>p{
+        width: auto;
+    }
+    .block3{
+        position: absolute;
+        top: 1709px;
+    }
+    .bullet4{
+        width: 328px;
+        height: 360px;
+        flex-shrink: 0;
+    }
+    .bullet4>img{
+        width: 400px;
+        height: 48%;
+      position: absolute;
+      top: 0px;
+      left: 1px;
+    }
+    .bullet4>p:nth-of-type(1){
+        position: absolute;
+        top: 177px;
+    }
+    .bullet4>p:nth-of-type(2){
+        width: 317px;
+    }
+    .bullet4>p{
+        position: absolute;
+        top: 217px;
+        left: 11px;
+    }
+}

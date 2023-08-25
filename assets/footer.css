@@ -1,0 +1,59 @@
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.footerbox {
+    width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(75, 82, 88, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.footnav1 {
+    display: flex;
+    gap: 10px;
+}
+
+.footnav1 img {
+    width: 60px;
+    height: 60px;
+}
+
+.cleanfoot1 {
+    color: rgba(67, 170, 255, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+.softfoot2 {
+    color: rgba(149, 154, 157, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    margin: 0;
+}
+
+.footnavimg {
+    width: 50px;
+}
